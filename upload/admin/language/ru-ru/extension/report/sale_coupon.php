@@ -8,6 +8,7 @@ $_['heading_title']    = 'Отчет по купонам';
 
 // Text
 $_['text_list']        = 'Список купонов';
+$_['text_filter']      = 'Фильтр';
 
 // Column
 $_['column_name']      = 'Название купона';

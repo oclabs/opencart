@@ -11,6 +11,7 @@ $_['text_success']           = 'Настройки успешно изменен
 $_['text_list']              = 'Список товаров';
 $_['text_add']               = 'Добавить';
 $_['text_edit']              = 'Редактирование';
+$_['text_filter']            = 'Фильтр';
 $_['text_plus']              = '+';
 $_['text_minus']             = '-';
 $_['text_default']           = 'По умолчанию';
@@ -23,7 +24,7 @@ $_['text_none_category']            	= ' --- Без Категории --- ';
 $_['text_none_manufacturer']            = ' --- Без Производителя --- ';
 
 // Column
-$_['column_name']            = 'Название товара';
+$_['column_name']            = 'Название';
 $_['column_category']        = 'Категория';
 $_['column_manufacturer']    = 'Производитель';
 $_['column_model']           = 'Код товара';

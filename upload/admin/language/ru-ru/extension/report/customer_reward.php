@@ -4,14 +4,19 @@
 // *	@license	GNU General Public License version 3; see LICENSE.txt
 
 // Heading
-$_['heading_title']         = 'Отчет по кредиту покупателей';
+$_['heading_title']         = 'Отчет по бонусным баллам покупателя';
+
+// Text
+$_['text_list']             = 'Список бонусных баллов';
+$_['text_filter']       	= 'Фильтр';
 
 // Column
-$_['text_list']             = 'Список кредитов покупателей';
 $_['column_customer']       = 'Имя покупателя';
 $_['column_email']          = 'E-Mail';
 $_['column_customer_group'] = 'Группа покупателей';
 $_['column_status']         = 'Статус';
+$_['column_points']         = 'Бонусные баллы';
+$_['column_orders']         = 'Кол-во заказов';
 $_['column_total']          = 'Итого';
 $_['column_action']         = 'Действие';
 

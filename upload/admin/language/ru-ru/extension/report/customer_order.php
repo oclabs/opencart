@@ -9,6 +9,7 @@ $_['heading_title']         = 'Отчет по заказам покупател
 // Text
 $_['text_list']             = 'Список заказов покупателей';
 $_['text_all_status']       = 'Все статусы';
+$_['text_filter']       	= 'Фильтр';
 
 // Column
 $_['column_customer']       = 'Имя покупателя';

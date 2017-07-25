@@ -12,10 +12,13 @@ $_['text_success']     = 'База данных импортирована!';
 $_['text_list']        = 'Список загрузок';
 
 // Entry
-$_['entry_restore']    = 'Восcтановить базу данных';
+$_['entry_progress']   = 'Процесс';
 $_['entry_export']     = 'Экспорт';
-$_['entry_import']     = 'Импорт';
-$_['entry_backup']     = 'Бэкап';
+
+
+// Tab
+$_['tab_backup']       = 'Экспорт';
+$_['tab_restore']      = 'Импорт';
 
 // Error
 $_['error_permission'] = 'У вас недостаточно прав для внесения изменений!';

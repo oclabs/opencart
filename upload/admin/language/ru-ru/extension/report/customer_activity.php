@@ -20,6 +20,7 @@ $_['text_return_account'] = '<a href="customer_id=%d">%s</a> - запрошен 
 $_['text_return_guest']   = '%s - запрошен возврат товара.';
 $_['text_order_account']  = '<a href="customer_id=%d">%s</a> <a href="order_id=%d"> - создал новый заказ</a>.';
 $_['text_order_guest']    = '%s <a href="order_id=%d"> - создал новый заказ</a>.';
+$_['text_filter']         = 'Фильтр';
 
 // Column
 $_['column_customer']     = 'Покупатель';

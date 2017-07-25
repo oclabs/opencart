@@ -9,6 +9,7 @@ $_['heading_title']    	= 'Отчет по маркетингу';
 // Text
 $_['text_list']         = 'Списки отслеживания';
 $_['text_all_status']   = 'Все статусы';
+$_['text_filter']       = 'Фильтр';
 
 // Column
 $_['column_campaign']  	= 'Название компании';

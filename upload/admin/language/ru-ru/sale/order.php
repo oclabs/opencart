@@ -10,6 +10,7 @@ $_['heading_title']              = 'Заказы';
 $_['text_list']                  = 'Список заказов';
 $_['text_add']                   = 'Добавить заказ';
 $_['text_edit']                  = 'Редактирование';
+$_['text_filter']      			 = 'Фильтр';
 $_['text_order_detail']          = 'Детали заказа';
 $_['text_customer_detail']       = 'Покупатель';
 $_['text_option']                = 'Опции';

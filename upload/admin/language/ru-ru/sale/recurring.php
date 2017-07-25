@@ -11,6 +11,7 @@ $_['text_success']                         = 'Настройки успешно 
 $_['text_list']                            = 'Список профилей переодичности';
 $_['text_add']                             = 'Добавить';
 $_['text_edit']                            = 'Редактирование';
+$_['text_filter']      					   = 'Фильтр';
 $_['text_payment_profiles']                = 'Профили периодичности';
 $_['text_status_active']                   = 'Включен';
 $_['text_status_inactive']                 = 'Выключен';
@@ -31,9 +32,20 @@ $_['text_transaction_suspended_failed']    = 'Заморожен из-за не�
 $_['text_transaction_outstanding_failed']  = 'Платеж не прошел';
 $_['text_transaction_expired']             = 'Истек';
 
+// Column
+$_['column_order_recurring_id']             = '№';
+$_['column_order_id']                       = '№ Заказа';
+$_['column_reference']                      = 'Способ оплаты';
+$_['column_customer']                       = 'Покупатель';
+$_['column_date_added']                     = 'Дата добавления';
+$_['column_status']                         = 'Статус';
+$_['column_amount']                         = 'Итого';
+$_['column_type']                           = 'Тип';
+$_['column_action']                         = 'Действие';
+
 // Entry
 $_['entry_cancel_payment']                 = 'Отмена оплаты';
-$_['entry_order_recurring']                = '№';
+$_['entry_order_recurring_id']             = '№';
 $_['entry_order_id']                       = '№ Заказа';
 $_['entry_reference']                      = 'Способ оплаты';
 $_['entry_customer']                       = 'Покупатель';

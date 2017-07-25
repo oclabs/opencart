@@ -13,6 +13,7 @@ $_['text_month']        = 'Месяцы';
 $_['text_week']         = 'Недели';
 $_['text_day']          = 'Дни';
 $_['text_all_status']   = 'Все статусы';
+$_['text_filter']       = 'Фильтр';
 
 // Column
 $_['column_date_start'] = 'Дата начала';
