@@ -14,6 +14,7 @@ $_['text_edit']          	 = 'Редактирование';
 $_['text_default']       	 = 'По умолчанию';
 $_['text_percent']       	 = 'Процент';
 $_['text_amount']        	 = 'Фиксированная сумма';
+$_['text_keyword']      	 = 'Должен быть уникальным на всю систему, без пробелов и спецсимволов.';
 
 // Column
 $_['column_name']        	 = 'Название производителя';
@@ -23,7 +24,7 @@ $_['column_action']      	 = 'Действие';
 
 // Entry
 $_['entry_name']             = 'Название производителя';
-$_['entry_description']      = 'Описание Верх:';
+$_['entry_description']      = 'Описание:';
 $_['entry_description_bottom']  = 'Описание Низ:';
 $_['entry_meta_title'] 	     = 'Мета-тег Title';
 $_['entry_meta_h1'] 	     = 'HTML-тег H1';

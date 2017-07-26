@@ -13,6 +13,7 @@ $_['text_add']               = 'Добавить';
 $_['text_edit']              = 'Редактирование';
 $_['text_default']           = 'По умолчанию';
 $_['text_category_total']    = 'Всего категорий: ';
+$_['text_keyword']      	 = 'Должен быть уникальным на всю систему, без пробелов и спецсимволов.';
 
 // Column
 $_['column_name']            = 'Название категории';
@@ -22,7 +23,7 @@ $_['column_action']          = 'Действие';
 
 // Entry
 $_['entry_name']             = 'Название категории';
-$_['entry_description']      = 'Описание Верх';
+$_['entry_description']      = 'Описание';
 $_['entry_description_bottom']  = 'Описание Низ:';
 $_['entry_meta_title'] 	     = 'Мета-тег Title';
 $_['entry_meta_h1'] 	     = 'HTML-тег H1';

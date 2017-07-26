@@ -1,4 +1,8 @@
 <?php
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 class ControllerExtensionThemeDefault extends Controller {
 	private $error = array();
 
@@ -39,6 +43,12 @@ class ControllerExtensionThemeDefault extends Controller {
 			$data['error_image_category'] = $this->error['image_category'];
 		} else {
 			$data['error_image_category'] = '';
+		}
+		
+		if (isset($this->error['image_manufacturer'])) {
+			$data['error_image_manufacturer'] = $this->error['image_manufacturer'];
+		} else {
+			$data['error_image_manufacturer'] = '';
 		}
 
 		if (isset($this->error['image_thumb'])) {
@@ -174,6 +184,22 @@ class ControllerExtensionThemeDefault extends Controller {
 			$data['theme_default_image_category_height'] = $setting_info['theme_default_image_category_height'];
 		} else {
 			$data['theme_default_image_category_height'] = 80;
+		}
+		
+		if (isset($this->request->post['theme_default_image_manufacturer_width'])) {
+			$data['theme_default_image_manufacturer_width'] = $this->request->post['theme_default_image_manufacturer_width'];
+		} elseif (isset($setting_info['theme_default_image_manufacturer_width'])) {
+			$data['theme_default_image_manufacturer_width'] = $setting_info['theme_default_image_manufacturer_width'];
+		} else {
+			$data['theme_default_image_manufacturer_width'] = 80;		
+		}
+		
+		if (isset($this->request->post['theme_default_image_manufacturer_height'])) {
+			$data['theme_default_image_manufacturer_height'] = $this->request->post['theme_default_image_manufacturer_height'];
+		} elseif (isset($setting_info['theme_default_image_manufacturer_height'])) {
+			$data['theme_default_image_manufacturer_height'] = $setting_info['theme_default_image_manufacturer_height'];
+		} else {
+			$data['theme_default_image_manufacturer_height'] = 80;
 		}
 		
 		if (isset($this->request->post['theme_default_image_thumb_width'])) {
@@ -342,6 +368,10 @@ class ControllerExtensionThemeDefault extends Controller {
 
 		if (!$this->request->post['theme_default_image_category_width'] || !$this->request->post['theme_default_image_category_height']) {
 			$this->error['image_category'] = $this->language->get('error_image_category');
+		}
+		
+		if (!$this->request->post['theme_default_image_manufacturer_width'] || !$this->request->post['theme_default_image_manufacturer_height']) {
+			$this->error['image_manufacturer'] = $this->language->get('error_image_manufacturer');
 		}
 
 		if (!$this->request->post['theme_default_image_thumb_width'] || !$this->request->post['theme_default_image_thumb_height']) {

@@ -1,4 +1,8 @@
 <?php
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 // Heading
 $_['heading_title']     = 'Manufacturers';
 
@@ -19,6 +23,11 @@ $_['column_action']     = 'Action';
 
 // Entry
 $_['entry_name']        = 'Manufacturer Name';
+$_['entry_meta_h1']     = 'Meta Tag H1';
+$_['entry_description'] = 'Description';
+$_['entry_meta_title'] 	= 'Meta Tag Title';
+$_['entry_meta_keyword']     = 'Meta Tag Keywords';
+$_['entry_meta_description'] = 'Meta Tag Description';
 $_['entry_store']       = 'Stores';
 $_['entry_keyword']     = 'Keyword';
 $_['entry_image']       = 'Image';
