@@ -1,4 +1,8 @@
 <?php
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 class ControllerAccountAffiliate extends Controller {
 	private $error = array();
 
@@ -12,6 +16,7 @@ class ControllerAccountAffiliate extends Controller {
 		$this->load->language('account/affiliate');
 
 		$this->document->setTitle($this->language->get('heading_title'));
+		$this->document->setRobots('noindex,follow');
 
 		$this->load->model('account/customer');
 
@@ -36,6 +41,7 @@ class ControllerAccountAffiliate extends Controller {
 		$this->load->language('account/affiliate');
 
 		$this->document->setTitle($this->language->get('heading_title'));
+		$this->document->setRobots('noindex,follow');
 
 		$this->load->model('account/customer');
 

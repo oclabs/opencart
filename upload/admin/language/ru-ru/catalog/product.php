@@ -32,7 +32,7 @@ $_['column_image']           = 'Изображение';
 $_['column_price']           = 'Цена';
 $_['column_quantity']        = 'Количество';
 $_['column_status']          = 'Статус';
-$_['column_noindex']         = 'Индексация';
+$_['column_noindex']         = 'Индекс';
 $_['column_action']          = 'Действие';
 
 // Entry

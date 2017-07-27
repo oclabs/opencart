@@ -213,6 +213,7 @@ class ControllerCatalogCategory extends Controller {
 				'category_id' => $result['category_id'],
 				'name'        => $result['name'],
 				'sort_order'  => $result['sort_order'],
+				'noindex'  	  => $result['noindex'],
 				'edit'        => $this->url->link('catalog/category/edit', 'user_token=' . $this->session->data['user_token'] . '&category_id=' . $result['category_id'] . $url, true),
 				'delete'      => $this->url->link('catalog/category/delete', 'user_token=' . $this->session->data['user_token'] . '&category_id=' . $result['category_id'] . $url, true)
 			);
@@ -252,7 +253,8 @@ class ControllerCatalogCategory extends Controller {
 
 		$data['sort_name'] = $this->url->link('catalog/category', 'user_token=' . $this->session->data['user_token'] . '&sort=name' . $url, true);
 		$data['sort_sort_order'] = $this->url->link('catalog/category', 'user_token=' . $this->session->data['user_token'] . '&sort=sort_order' . $url, true);
-
+		$data['sort_noindex'] = $this->url->link('catalog/category', 'user_token=' . $this->session->data['user_token'] . '&sort=noindex' . $url, true);
+		
 		$url = '';
 
 		if (isset($this->request->get['sort'])) {
@@ -497,6 +499,14 @@ class ControllerCatalogCategory extends Controller {
 			$data['category_seo_url'] = $this->model_catalog_category->getCategorySeoUrls($this->request->get['category_id']);
 		} else {
 			$data['category_seo_url'] = array();
+		}
+		
+		if (isset($this->request->post['noindex'])) {
+			$data['noindex'] = $this->request->post['noindex'];
+		} elseif (!empty($category_info)) {
+			$data['noindex'] = $category_info['noindex'];
+		} else {
+			$data['noindex'] = 1;
 		}
 				
 		if (isset($this->request->post['category_layout'])) {
