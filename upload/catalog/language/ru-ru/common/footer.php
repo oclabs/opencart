@@ -21,4 +21,4 @@ $_['text_account']      = 'Личный кабинет';
 $_['text_order']        = 'История заказа';
 $_['text_wishlist']     = 'Закладки';
 $_['text_newsletter']   = 'Рассылка';
-$_['text_powered']      = 'Работает на <a href="http://opencart.pro/">OPENCART.PRO</a><br /> %s &copy; %s';
+$_['text_powered']      = 'Работает на <a href="https://myopencart.com/">ocStore</a> При поддержке <a href="http://oclabs.pro/"><i class="fa fa-flask fa-fw"></i>ocLabs</a><br /> %s &copy; %s';

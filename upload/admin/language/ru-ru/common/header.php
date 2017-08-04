@@ -4,9 +4,10 @@
 // *	@license	GNU General Public License version 3; see LICENSE.txt
 
 // Heading
-$_['heading_title']        	 	  = 'OPENCART.PRO';
+$_['heading_title']        	 	  = 'ocStore';
 
 // Text
+$_['text_profile']      		  = 'Ваш профиль';
 $_['text_order']             	  = 'Заказы';
 $_['text_processing_status'] 	  = 'Обработка';
 $_['text_complete_status'] 	 	  = 'Завершено';
@@ -21,7 +22,8 @@ $_['text_affiliate']       	 	  = 'Партнёрская программа';
 $_['text_store']           	 	  = 'Магазины';
 $_['text_front']           	 	  = 'Магазин';
 $_['text_help']            	 	  = 'Помощь';
-$_['text_homepage']        	 	  = 'Блог';
+$_['text_homepage']        	 	  = 'Сайт проекта';
+$_['text_oppro']        	 	  = 'Перейти на OPENCART.PRO';
 $_['text_support']         	 	  = 'Форум поддержки';
 $_['text_documentation']   	 	  = 'Документация';
 $_['text_logout']          	 	  = 'Выход';
