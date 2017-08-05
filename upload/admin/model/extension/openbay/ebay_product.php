@@ -1,4 +1,8 @@
 <?php
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 class ModelExtensionOpenBayEbayProduct extends Model {
 	public function getTaxRate($class_id) {
 		return $this->openbay->getTaxRate($class_id);

@@ -1,4 +1,8 @@
 <?php
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 class ControllerExtensionOpenbayAmazonProduct extends Controller {
 	public function index() {
 		$data = $this->load->language('catalog/product');

@@ -1,4 +1,8 @@
 <?php
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 class ControllerExtensionPaymentPPExpress extends Controller {
 	private $error = array();
 	private $opencart_connect_url = 'https://www.opencart.com/index.php?route=external/paypal_auth/connect';
