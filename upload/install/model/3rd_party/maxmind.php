@@ -1,4 +1,8 @@
 <?php
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 class Model3rdPartyMaxmind extends Model {
 	public function editSetting($data) {
 		$this->db->query("REPLACE INTO `" . DB_PREFIX . "setting` SET `maxmind_key` = '" . $db->escape($data['fraud_maxmind_key']) . "', `maxmind_score` = '" . (int)$data['fraud_maxmind_score'] . "', `maxmind_order_status_id` = '" . (int)$data['maxmind_order_status_id'] . "' WHERE `store_id` = '0' AND `code` = 'maxmind'");

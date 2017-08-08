@@ -1,4 +1,8 @@
 <?php
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 class ControllerStartupDatabase extends Controller {
 	public function index() {
 		if (is_file(DIR_OPENCART . 'config.php') && filesize(DIR_OPENCART . 'config.php') > 0) {

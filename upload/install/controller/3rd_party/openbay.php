@@ -1,4 +1,8 @@
 <?php
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 class Controller3rdPartyOpenbay extends Controller {
 	public function index() {
 		$this->load->language('3rd_party/openbay');
