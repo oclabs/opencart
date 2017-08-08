@@ -1,4 +1,8 @@
 <?php
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 class ControllerExtensionPaymentPPPayflow extends Controller {
 	public function index() {
 		$this->load->language('extension/payment/pp_payflow');

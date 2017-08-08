@@ -1,4 +1,8 @@
 <?php
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 class ModelExtensionPaymentAlipayCross extends Model {
 	var $https_verify_url = 'https://mapi.alipay.com/gateway.do?service=notify_verify&';
 	var $https_verify_url_test = 'https://openapi.alipaydev.com/gateway.do?service=notify_verify&';

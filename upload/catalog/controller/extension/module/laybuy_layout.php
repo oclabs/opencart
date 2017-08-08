@@ -1,4 +1,8 @@
 <?php
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 class ControllerExtensionModuleLaybuyLayout extends Controller {
 	public function index() {
 		$this->load->model('extension/module/laybuy_layout');

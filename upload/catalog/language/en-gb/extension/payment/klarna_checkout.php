@@ -1,5 +1,8 @@
 <?php
-// Heading
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 $_['heading_title']				   = 'Klarna Checkout';
 $_['heading_title_success']		   = 'Your Klarna Checkout order has been placed!';
 

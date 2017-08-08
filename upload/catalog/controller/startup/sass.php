@@ -1,4 +1,8 @@
 <?php
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 class ControllerStartupSass extends Controller {
 	public function index() {
 		$file = DIR_APPLICATION . 'view/theme/' . $this->config->get('theme_directory') . '/stylesheet/bootstrap.css';

@@ -1,5 +1,10 @@
 <?php
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 // Text
+
 $_['text_title']                = 'Square';
 $_['text_canceled']             = 'Success: You have succesfully canceled this payment! We sent you a confirmation e-mail.';
 $_['text_confirm_cancel']       = 'Are you sure you want to cancel the recurring payments?';

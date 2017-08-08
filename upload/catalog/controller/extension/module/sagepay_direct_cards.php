@@ -1,4 +1,8 @@
 <?php
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 class ControllerExtensionModuleSagepayDirectCards extends Controller {
 	public function index() {
 		if ($this->config->get('module_sagepay_direct_cards_status') && $this->config->get('payment_sagepay_direct_status') && $this->customer->isLogged()) {

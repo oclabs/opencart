@@ -1,4 +1,8 @@
 <?php
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 class ModelExtensionOpenBayEbayOrder extends Model{
 	public function importOrders($data) {
 		$this->default_shipped_id         = $this->config->get('ebay_status_shipped_id');

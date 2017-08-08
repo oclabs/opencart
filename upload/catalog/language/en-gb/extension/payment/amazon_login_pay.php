@@ -1,5 +1,8 @@
 <?php
-// Heading
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 $_['heading_title']				= 'Amazon Pay';
 $_['heading_address']			= 'Please choose a delivery address';
 $_['heading_payment']			= 'Please select a payment method';

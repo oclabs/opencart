@@ -1,4 +1,8 @@
 <?php
+// *	@developer	http://oclabs.pro
+// *	@source		See SOURCE.txt for source and other copyright.
+// *	@license	GNU General Public License version 3; see LICENSE.txt
+
 class ModelCheckoutRecurring extends Model {
 	public function addRecurring($order_id, $description, $data) {
 		$this->db->query("INSERT INTO `" . DB_PREFIX . "order_recurring` SET `order_id` = '" . (int)$order_id . "', `date_added` = NOW(), `status` = 6, `product_id` = '" . (int)$data['product_id'] . "', `product_name` = '" . $this->db->escape($data['name']) . "', `product_quantity` = '" . $this->db->escape($data['quantity']) . "', `recurring_id` = '" . (int)$data['recurring_id'] . "', `recurring_name` = '" . $this->db->escape($data['name']) . "', `recurring_description` = '" . $this->db->escape($description) . "', `recurring_frequency` = '" . $this->db->escape($data['frequency']) . "', `recurring_cycle` = '" . (int)$data['cycle'] . "', `recurring_duration` = '" . (int)$data['duration'] . "', `recurring_price` = '" . (float)$data['price'] . "', `trial` = '" . (int)$data['trial'] . "', `trial_frequency` = '" . $this->db->escape($data['trial_frequency']) . "', `trial_cycle` = '" . (int)$data['trial_cycle'] . "', `trial_duration` = '" . (int)$data['trial_duration'] . "', `trial_price` = '" . (float)$data['trial_price'] . "', `reference` = ''");
